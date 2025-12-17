@@ -51,7 +51,7 @@ Sensitive data stays protected and accessible only through authorized decryption
 🏗️ Core Data Model (High-Level)
 --
 👥 Core HR
-
+--
 Employee
 
 Department
@@ -59,33 +59,34 @@ Department
 JobPosition
 
 💰 Compensation
-
+--
 Payroll (1:1 with Employee)
 
 Benefits
 
 🧑‍💼 Recruiting
-
+--
 RecruitmentCandidate
 
 CandidateApplication (supports multiple applications per candidate)
 
 Interview
-
+--
 🎓 Development & Compliance
 
 Training
-
+--
 EmployeeTraining (bridge table)
 
 🕒 Time & Administration
 
 Attendance
-
+--
 LeaveRequest
+--
 
 📚 Lookup Tables (Controlled Vocabularies)
-
+--
 Used to keep data consistent and clean 🧼 (small row counts):
 
 EmploymentStatusLookup
@@ -101,6 +102,7 @@ TrainingStatusLookup
 CandidateApplicationStatusLookup
 
 AttendanceStatusLookup
+
 
 🛡️ Governance Rules Implemented
 
@@ -126,13 +128,13 @@ Salary, department, position, and benefits in one view
 Used for compensation and budgeting insights
 
 🧑‍💼 vCandidatePipeline
-
+--
 Recruitment funnel from application to hire
 
 Supports sourcing and pipeline analysis
 
 🎓 vTrainingProgress
-
+--
 Training completion and compliance tracking
 
 🕒 vLeaveApprovalOverview
@@ -140,6 +142,7 @@ Training completion and compliance tracking
 Leave requests, approvals, and approvers
 
 ▶️ Demo Queries
+--
 SELECT TOP 5 * FROM Employee;
 SELECT TOP 5 * FROM vEmployeePayrollSummary;
 SELECT TOP 5 * FROM vCandidatePipeline;
@@ -149,6 +152,7 @@ SELECT TOP 5 * FROM vTrainingProgress;
 These confirm that computed columns, joins, and constraints are working as expected ✅
 
 📊 Dashboards (Tableau Public)
+--
 📊 Dashboard 1: Salary & Benefits Overview
 
 Average salary by department
@@ -166,6 +170,7 @@ Candidate source distribution (LinkedIn, referrals, job boards)
 Recruiting insights at a glance 🔍
 
 ⚙️ Tech Stack
+--
 
 🗄️ Microsoft SQL Server
 
@@ -175,7 +180,9 @@ Recruiting insights at a glance 🔍
 
 📁 Excel (data extracts)
 
+
 🚀 Getting Started
+--
 
 Run the SQL script in SSMS to create the database
 
@@ -186,15 +193,18 @@ Open Tableau Public and connect to the Excel extract
 Explore dashboards and insights 🎉
 
 👩‍💻👨‍💻 Contributors
+--
 
 Daiyin Yu, Yi Zhou, Rachel Vu
 
 🎓 Course Info
+--
 
 DAMG 6210 – Data Management and Database Design
 Northeastern University 🐾
 
 🔮 Future Enhancements
+--
 
 ☁️ Cloud deployment (Azure / AWS)
 
@@ -207,7 +217,8 @@ Northeastern University 🐾
 📊 Advanced workforce analytics
 
 
-📁👩‍💻HR DB Project - Final Presentation Contents:
+📁👩‍💻HR DB Project - Final Presentation Contents
+--
 1. Presentation Deck
 File: HR Database Presentation Deck Group 7.pdf
 A slide deck summarizing the ERD design, SQL implementation, constraints, functions, encryption features, and Tableau/Power BI visualizations.
