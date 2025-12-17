@@ -181,8 +181,29 @@ Open Tableau Public and connect to the Excel extract
 
 Explore dashboards and insights 🎉
 
+👩‍💻👨‍💻 Contributors
 
-HR DB Project - Final Presentation Contents:
+Daiyin Yu, Yi Zhou, Rachel Vu
+
+🎓 Course Info
+
+DAMG 6210 – Data Management and Database Design
+Northeastern University 🐾
+
+🔮 Future Enhancements
+
+☁️ Cloud deployment (Azure / AWS)
+
+🔌 API integration with HR systems
+
+🔐 Role-based access control
+
+📦 Scalability & performance tuning
+
+📊 Advanced workforce analytics
+
+
+📁👩‍💻HR DB Project - Final Presentation Contents:
 1. Presentation Deck
 File: HR Database Presentation Deck Group 7.pdf
 A slide deck summarizing the ERD design, SQL implementation, constraints, functions, encryption features, and Tableau/Power BI visualizations.
