@@ -219,25 +219,26 @@ Northeastern University 🐾
 
 📁👩‍💻HR DB Project - Final Presentation Contents
 --
-1. Presentation Deck
-File: HR Database Presentation Deck Group 7.pdf
+
+Presentation Deck
+HR Database Presentation Deck Group 7.pdf
 A slide deck summarizing the ERD design, SQL implementation, constraints, functions, encryption features, and Tableau/Power BI visualizations.
 This deck is used to guide the recorded presentation.
 
-2. Presentation Video
-File: HR Database Video Presentation Group 7.mp4
+Presentation Video
+HR Database Video Presentation Group 7.mp4
 A 13-minute walkthrough explaining our HR database the database design decisions, ERD, SQL implementation highlights, demo queries, and HR analytics dashboards created from the database.
 
-3. SQL Implementation File
-File: HR_Database_SQL_Implementation.sql
+SQL Implementation File
+HR_Database_SQL_Implementation.sql
 Contains all DDL statements, constraints, lookup tables, functions, computed columns, encryption setup, and reporting views.
 
-4. HR Database Project ERD
+HR Database Project ERD Lucid Chart
 The final Entity-Relationship Diagram illustrating the full HR data model including tables, primary keys, foreign keys, cardinalities, lookup tables, and governance rules.
 
-5.Human Resources Database Design Document.pdf
+Human Resources Database Design Document.pdf
 A comprehensive design specification outlining entities, attributes, normalization, relationships, governance rules, and sample queries supporting HR workflows.
 
-6. HR DB Project Visual.twbx
+HR DB Project Visual.twbx
 Two visualizations using a data mining tool Tableau.
 
