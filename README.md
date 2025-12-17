@@ -1,11 +1,13 @@
 🧠👥 HR Management Database
+--
 
 DAMG 6210 – Data Management and Database Design
 
 A fully normalized Human Resources Management Database designed to support the complete HR lifecycle : from 🧑‍💼 recruitment and onboarding to 💰 payroll, 🎓 training, and 🕒 attendance, all while enforcing strong 🔐 security, 🧮 validation, and 📊 analytics.
 
-🎯 Project Goals
 
+🎯 Project Goals
+--
 Centralize HR data into one reliable system 🗄️
 
 Enforce HR policies and compliance rules at the database level ✅
@@ -17,6 +19,7 @@ Enable reporting and analytics through reusable SQL views 📈
 Protect sensitive employee data using encryption 🔐
 
 ✨ Key Features
+--
 🧩 Data Integrity & Business Rules
 
 🔑 Primary Keys on all tables
@@ -46,6 +49,7 @@ Symmetric key 🔒
 Sensitive data stays protected and accessible only through authorized decryption.
 
 🏗️ Core Data Model (High-Level)
+--
 👥 Core HR
 
 Employee
